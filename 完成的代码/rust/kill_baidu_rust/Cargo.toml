@@ -1,0 +1,17 @@
+[package]
+name = "kill_baidu_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+windows = { version = "0.48", features = ["Win32_UI_Shell", "Win32_Foundation", "Win32_UI_Shell_Common"] }
+
+[build-dependencies]
+winres = "0.1"
+
+# 优化设置
+[profile.release]
+lto = true          # 启用链接时优化
+opt-level = "z"     # 优化级别为最小体积
+strip = true        # 去除调试信息
