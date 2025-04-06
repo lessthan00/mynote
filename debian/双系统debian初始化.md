@@ -101,9 +101,11 @@ sudo apt install gnome-software-plugin-flatpak
 # i find firefox is not stable in useing, so choose chrome or chromium
 # i find platpak install chrome or chromium is not stable in useing, so install chromium in apt
 # https://linuxcapable.com/how-to-install-chromium-browser-debian-linux/
-sudo apt install chromium
-chromium
+# sudo apt install chromium
+# chromium
 
+# flatpak 的权限管理
+# https://flathub.org/apps/com.github.tchx84.Flatseal 
 
 # https://linuxcapable.com/how-to-install-google-chrome-on-debian-linux/
 sudo apt install software-properties-common apt-transport-https ca-certificates curl -y
@@ -111,6 +113,8 @@ curl -fSsL https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmo
 echo deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main | sudo tee /etc/apt/sources.list.d/google-chrome.list
 sudo apt update
 sudo apt install google-chrome-stable
+
+
 
 
 
