@@ -1,5 +1,5 @@
 class,PN,model
-驱动芯片,ULN2003AN,
+驱动芯片,ULN2003AN,N
 音频解码,ES7210,
 音频解码,ES8311,
 音频IC,NS41508,
@@ -31,8 +31,8 @@ class,PN,model
 双向电压转化,TXS0108EPWR,
 单向可控硅,MCR100-6TO-920.8A400V,
 功率电子开关,sy6280aac,
-六轴陀螺仪,MPU-6050,
-六轴陀螺仪,MPU-6500,
+六轴陀螺仪,MPU-6050,T
+六轴陀螺仪,MPU-6500,T
 六轴陀螺仪,QMI8658A,
 光耦合器,TLP521-1,
 光耦,EL817C,
@@ -42,7 +42,7 @@ class,PN,model
 以太网控制芯片,RTL8211F-ME6211C33M5G,
 以太网控制,SR9900A,
 三轴加速度,ADXL345BCCZ-RL7,T
-三轴加速度,QMA6100P,
+三轴加速度,QMA6100P,F
 三相栅极驱动,FD6288Q,
 vref,TL431,
 usb控制芯片,usb3300-EZK,
@@ -53,11 +53,12 @@ usb3.2type-c,母座16pin立式,
 usb3.1type-c,24p_前插后贴母座,
 usb2usart,ch340c,
 usb2usart,ch340n,
-usb2,SL2.1A,
+usb2,SL2.1A,T
 usb,ch340K_SOP-10,
 usb,CH347T,
 SW-520DHDX-2801震动,,
-rs-232收发芯片,SP3232EEY,
+rs-232收发芯片,SP3232EEY,T
+RS-485,MAX3485,T
 port,A1257WR-S-2P,
 NTC,MF5A-35K10K5%精,
 MODEL,ESP32-c3-WROOM-02-N4,
@@ -83,9 +84,9 @@ ldo,RT9013-33GB,T
 lcd,1602A_lcd显示屏5V1602液晶屏,
 H桥电机驱动,DRV8837CDSGR,
 fpga,PGC4KD-6ILPG144,
-FLASHnand,W25N01GVZEIG,
-FLASH,25Q32csIG,
-FLASH,W25Q80DVSSIG,
+FLASHnand,W25N01GVZEIG,T
+FLASH,GD25Q32CSIG,T
+FLASH,W25Q80DVSSIG,T
 DP协议,CH224K,
 DDR3LSDRAMN,MT41K256M16TW-107:FBGA-96_4GB,
 DC5.5*2.1,DC0005-2.1母座S7-2-1,
